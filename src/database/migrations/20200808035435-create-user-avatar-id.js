@@ -7,8 +7,8 @@ module.exports = {
         key: 'id',
         onUpdate: 'CASCADE',
         onDelete: 'SET NULL',
+        allowNull: true,
       },
-      allowNull: true,
     });
   },
 
